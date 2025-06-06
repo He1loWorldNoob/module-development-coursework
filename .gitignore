@@ -158,3 +158,59 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# .NET Core
+project.assets.json
+project.nuget.cache
+*.deps.json
+
+# Visual Studio Test Results
+TestResults/
+*.TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# DotCover
+.idea/.dotCover
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Unity (если ты используешь Unity с C#)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+.vs
